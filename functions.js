@@ -12,12 +12,12 @@ function sumProduct(productos,precio){
     return productos * precio;
 }
 
-function multiplitProduct(productos){
-    return productos * productos;
-}
+function deleteProduct(producto, precio){
+    if(precio > 100){
+        return producto
+    }
 
-function divide(producto, precio){
-    return producto / precio;
+    return "No funciona bien";
 }
 
 module.exports = checkTotal;
