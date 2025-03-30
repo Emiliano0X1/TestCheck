@@ -13,8 +13,9 @@ function sumProduct(productos,precio){
 }
 
 function deleteProduct(producto, precio){
-    if(precio > 100){
-        return producto
+
+    if(precio > 50){
+        return producto / precio;
     }
 
     return "No funciona bien";
